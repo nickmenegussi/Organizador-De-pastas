@@ -1,7 +1,7 @@
 import os
 import shutil
 
-path = r'F:/OneDrive'
+path = r'o caminho da pasta' # usar r se quiser , é apenas pro python entender que as contra-barra e um local da pasta
 files = os.listdir(path)
 
 for file in files:
